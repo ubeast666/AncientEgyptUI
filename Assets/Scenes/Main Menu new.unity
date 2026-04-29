@@ -1140,10 +1140,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 674409702}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 674409703}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: GoToSettingsMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1617,7 +1617,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c892731f53720e0448587c9659225a7e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MainMenu
+  m_EditorClassIdentifier: 
 --- !u!1 &1948732621
 GameObject:
   m_ObjectHideFlags: 0
